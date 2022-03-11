@@ -22,7 +22,7 @@ public class Refactorizacion {
         v[2] = 6;
         v[3] = 8;
         Prueba p = new Prueba();
-        p.valor = 10;
+        p.setValor(10);
         p.modificar(v, 1);
         p.borrar(v);
         p.insertar(v);
