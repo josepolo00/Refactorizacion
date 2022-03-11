@@ -11,11 +11,12 @@ package refactorizacion;
  */
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 public class Prueba {
-
+    
     public int valor;
 //metodo que modifica el contenido de la posicion posicion de un array con el valor pasado
 
     public void modificar(int[] vector) {
+        int LongitudAcctual = 0;
         int i;
         int posicion = 1;
 //Mostramos los elementos del array
@@ -40,6 +41,7 @@ vector[posicion] = this.valor;
 //metodo que borra el elemento de la posicion posicion desplazando a la izquierda todos los elementos
 
     public void borrar(int[] v) {
+        int LongitudAcctual = 0;
         int p = 1, i;
 //mostramos su contenido
 //Mostramos los elementos del array
@@ -66,6 +68,7 @@ vector[posicion] = this.valor;
    // elementos
 
     public void insertar(int[] v) {
+        int LongitudAcctual = 0;
         int p = 1, i;
 //mostramos su contenido
 //Mostramos los elementos del array
