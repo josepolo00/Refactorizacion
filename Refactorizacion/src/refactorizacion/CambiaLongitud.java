@@ -40,7 +40,7 @@ public class CambiaLongitud {
 //metodo que inserta un elemento en la posicion posicion desplazando a la derecha todos los
    // elementos
 
-    public void insertar(int[] vector) {
+     public void insertar(int[] vector) {
         int LongitudAcctual = 0;
         int p = 1, i;
 //mostramos su contenido
