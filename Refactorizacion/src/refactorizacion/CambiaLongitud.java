@@ -10,7 +10,7 @@ package refactorizacion;
  * @author jose
  */
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-public class CambiaLongitud {
+public class CambiaLongitud extends NewClass {
     
     private int valor;
 
@@ -39,6 +39,8 @@ public class CambiaLongitud {
     }
 //metodo que inserta un elemento en la posicion posicion desplazando a la derecha todos los
    // elementos
+//metodo que inserta un elemento en la posicion posicion desplazando a la derecha todos los
+   // elementos
 
      public void insertar(int[] vector) {
         int LongitudAcctual = 0;
@@ -62,14 +64,6 @@ public class CambiaLongitud {
         Visualizar(i, longitud, vector);
     }
 
-    public void Visualizar(int i, final int longitud, int[] vector) {
-        //Mostramos los elementos del array
-        System.out.print("v={");
-        for (i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
-    }
 
     /**
      * @return the valor
