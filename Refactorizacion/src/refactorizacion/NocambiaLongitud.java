@@ -39,7 +39,7 @@ public class NocambiaLongitud {
 
     //metodo que modifica el contenido de la posicion posicion de un array con el valor pasado
 
-    public void modificar(int[] vector, int posicion) {
+   public void modificar(int[] vector, int posicion) {
         int LongitudAcctual = 0;
         int i;
 //Mostramos los elementos del array
